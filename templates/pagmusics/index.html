@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite songs</title>
+    <link rel="stylesheet" href="{% static 'styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+</head>
+<body>
+    <header></header>
+    <main class="page-content">
+        <section class="main-content">
+            <div class="titles">
+                <h1 class="main-title">My favorite playlists</h1>
+                <h2 class="main-subtitle">According to styles</h2>
+            </div>
+            <div>
+                <p class="main-paragraph">Choose a song and you'll be directed to the page of the choosen style</p>
+                <div class="links-page">
+                    <a class="link" href="rock">Rock</a>
+                    <a class="link" href="romantic">Romantic</a>
+                    <a class="link" href="axe_music">Axé</a>
+                    <a class="link" href="jazz">Jazz</a>
+                    <a class="link" href="mpb">MPB</a>
+                    <a class="link" href="city_pop">City Pop (Japan Music 80's)</a>
+                    <a class="link" href="chill_vibes">Chill Vibes</a>
+                    <a class="link" href="indie_rock">Indie Rock</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h2 class="footer-content-text">Powered by Caio Araujo</h2>
+        </div>
+    </footer>
+</body>
+</html>

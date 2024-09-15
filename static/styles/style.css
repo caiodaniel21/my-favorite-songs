@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --grey: rgb(27, 27, 27);
+    --white: rgb(200, 200, 200);
+    --pink: rgb(172, 39, 106);
+    --grey-light: rgb(86, 86, 86);
+}
+
+body {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    padding-top: 3%;
+
+    text-align: center;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.main-subtitle {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--pink);
+}
+
+.main-paragraph {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.links-page {
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.link:hover {
+    background-color: var(--grey-light);
+    scale: 1.1;
+}
+
+.link {
+    color: var(--white);
+
+    width: 250px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    
+    text-decoration: none;
+
+    padding: 1rem;
+    border: solid var(--white) 0.062rem;
+
+    transition: 0.25s;
+}
+
+.main-title-page:hover {
+    color: var(--pink);
+}
+
+.main-title-page {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+
+    transition: 0.50s;
+}
+
+#arrow-link:hover {
+    transform: scale(1.25);
+}
+
+#arrow-link {
+    font-size: 3rem;
+    color: var(--grey-light);
+
+    transition: 0.25s;
+}
+
+.page-items {
+    display: flex;
+    width: 50rem;
+
+    align-items: center;
+    gap: 5%;
+}
+
+.page-items-left {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+}
+
+.playlist {
+    padding: 10% 0% 10% 0%;
+}
+
+.footer-content {
+    background-color: var(--pink);
+
+    text-align: center;
+
+    padding: 1%;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
